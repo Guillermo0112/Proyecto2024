@@ -1,2 +1,2 @@
 # Proyecto2024
-# Primer avance
+# Primer avance realizado en replit y subido a Github
