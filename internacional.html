@@ -4,26 +4,392 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>PAGINA DE FUTBOL</title>
-  <link href="stylecon.css" rel="stylesheet" type="text/css" />
+  <link href="css/inter.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
   <header>
-    <div class="banner">
-      <img src="img/banner.jpg" />
+    <div class="row">
+      <img src="img/banner.jpg" width="100%" height="40px">
     </div>
-    <nav class="nav-var">
-      <ul class="barra">
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="copali.html">COPA LIBERTADORES</a></li>
-        <li><a href="copasuda.html">COPA SUDAMERICANA</a></li>
-        <li><a href="internacional.html">INTERNACIONAL</a></li>
-        <li><a href="ligabol.html">LIGA BOLIVIANA</a></li>
-        <li><a href="about.html">ACERCA DE NOSOTROS</a></LI>
-        <li><a href="contacto.html">CONTACTO</a></li>
-      </ul>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid me-lg-5 ms-lg-5 me-md-5 ms-md-5 ">
+        <img class="logo" src="img/logo.jpg" alt="">
+        <a class="navbar-brand" href="index.html" style="color: green;">GOL.NET</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="ligabol.html" style="color: green;">Liga Boliviana</a>
+            </li>
+            <li class="nav-item me-3 ">
+              <a class="nav-link" href="copali.html" style="color: green;">Copa Libertadores</a>
+            </li>
+            <li class="nav-item me-3 ">
+              <a class="nav-link" href="copasuda.html" style="color: green;">Copa Sudamericana</a>
+            </li>
+            <li class="nav-item me-3 ">
+              <a class="nav-link" href="internacional.html" style="color: green;">Internacional</a>
+            </li>
+            <li class="nav-item me-3 ">
+              <a class="nav-link" href="contacto.html" style="color: green;">Contacto</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="about.html" style="color: green;">Acerca de Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <img src="img/banner.jpg" width="100%" height="40px">
+    </div>
   </header>
 <body>
- 
-  <footer class="footer">©Gol.Net La Paz Bolivia</footer>
+  <div class="principal">
+    <br>
+    <h2 >Conozca la lista de Convocados de la Seleccion Boliviana de Futbol</h2>
+    <br>
+    <p>Ya salio la lista de convocados para la copa America 2024 que se disputara en Estados Unidos con algunas ausencias e incluciones de jugadores que causaron polemica apenas conocida la convocatoria</p>
+    <p>Con la exclusion de Enzo Monteiro y Darlinson Rodrigues dos futbolistas jovenes y de buen presente en sus clubes, causo molestia y reclamos de los inchas hacia el DT de la seleccion</p>
+    <p>La inclucion de jugadores como Almada, Jusino, Saucedo, Miranda Tambien causo molestias entre  los inchas de la seleccion que consideran que su ciclo ya esta cumplido y se deberia probar nuevos jugadores</p>
+    <div id="zago">
+      <div class="card" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
+        <div class="card-body" style="width: 50%; padding: 20px; height: 100%;">
+          <h5 class="card-title">Antonio Carlos Zago</h5>
+          <p class="card-text">DT de la seleccion Boliviana de Futbol</p>
+        </div>
+        <img src="img/zago.webp" class="card-img" alt="..." style="width: 70%; height: 200px; object-fit: cover;">
+      </div>
+    </div>
+    <div class="text">
+      <br>
+      <h2>Lista de convocados de la Seleccion Boliviana para la Copa America 2024</h2>
+      <br>
+    </div>
+    <div class="row">
+      <img src="img/banner.jpg" width="100%" height="40px">
+    </div>
+    <div id="convocados">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/viscarra.jpg" class="card-img-top" alt="..." height="250px" width="50px">
+            <div class="card-body">
+              <h5 class="card-title">Guillermo Viscarra</h5>
+              <p class="card-text">Club: The Strongest</p>
+              <p class="card-text">15 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/lampe.jpg" class="card-img-top" alt="..." height="250px" width="50px">
+            <div class="card-body">
+              <h5 class="card-title">Carlos Lampe</h5>
+              <p class="card-text">Club: Bolivar</p>
+              <p class="card-text">53 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/almada.webp" class="card-img-top" alt="..." height="250px" width="50px">
+            <div class="card-body">
+              <h5 class="card-title">Gustabo Almada</h5>
+              <p class="card-text">Club: Universitario de Vinto</p>
+              <p class="card-text">Primera convocatoria</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/medina.png" class="card-img-top" alt="..." height="250px" width="50px">
+            <div class="card-body">
+              <h5 class="card-title">Diego Medina</h5>
+              <p class="card-text">Club: Always Ready</p>
+              <p class="card-text">9 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/hcuellar.jpg" class="card-img-top" alt="..." height="250px" width="50px">
+            <div class="card-body">
+              <h5 class="card-title">Hector Cuellar</h5>
+              <p class="card-text">Club: Always Ready</p>
+              <p class="card-text">5 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/suarez.jpg" class="card-img-top" alt="..." height="250px" width="50px">
+            <div class="card-body">
+              <h5 class="card-title">Marcelo Suarez</h5>
+              <p class="card-text">Club: Always Ready</p>
+              <p class="card-text">6 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/rocha.webp" class="card-img-top" alt="..." height="250px" width="50px">
+            <div class="card-body">
+              <h5 class="card-title">Yomar Rocha</h5>
+              <p class="card-text">Club: Bolivar</p>
+              <p class="card-text">1 partido con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/sagredo1.webp" class="card-img-top" alt="..." height="250px" width="50px">
+            <div class="card-body">
+              <h5 class="card-title">Jesus Sagredo</h5>
+              <p class="card-text">Club: Bolivar</p>
+              <p class="card-text">7 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/sagredo2.jpg" class="card-img-top" alt="..." height="250px" width="50px">
+            <div class="card-body">
+              <h5 class="card-title">Jose Sagredo</h5>
+              <p class="card-text">Club: Bolivar</p>
+              <p class="card-text">51 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/quinteros.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jairo Quinteros</h5>
+              <p class="card-text">Club Bolivar</p>
+              <p class="card-text">20 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/jusino.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Adrian Jusino</h5>
+              <p class="card-text">Club: The Strongest</p>
+              <p class="card-text">17 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/luis.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Luis Haquin</h5>
+              <p class="card-text">Club: Associação Atlética Ponte Preta</p>
+              <p class="card-text">29 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/morales.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Efrain Morales</h5>
+              <p class="card-text">Club: Atlanta United</p>
+              <p class="card-text">Primera convocatoria</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/rcf.jpeg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Roberto Carlos Fernandez</h5>
+              <p class="card-text">Club: FC Baltika</p>
+              <p class="card-text">32 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/chavez.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lucas Chavez</h5>
+              <p class="card-text">Club: Bolivar</p>
+              <p class="card-text">1 partido con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/justi.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Leonel Justiniano</h5>
+              <p class="card-text">Club: Bolivar</p>
+              <p class="card-text">46 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/saucedo.webp" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fernando Saucedo</h5>
+              <p class="card-text">Club: Bolivar</p>
+              <p class="card-text">6 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/rvaca.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ramiro Vaca</h5>
+              <p class="card-text">Club: Bolivar</p>
+              <p class="card-text">27 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/robson.webp" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Robson Matheus</h5>
+              <p class="card-text">Club: Always Ready</p>
+              <p class="card-text">1 partido con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/adalid.jpeg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Adalid Terrazas</h5>
+              <p class="card-text">Club: Always Ready</p>
+              <p class="card-text">Primera convocatoria</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/ramallo.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rodrgigo Ramallo</h5>
+              <p class="card-text">Club: The Stronguest</p>
+              <p class="card-text">36 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/boris.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Boris Cespedes</h5>
+              <p class="card-text">Club: Yverdon Sport FC</p>
+              <p class="card-text">13 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/jcuellar.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jaume Cuellar</h5>
+              <p class="card-text">Club: Barcelona B</p>
+              <p class="card-text">5 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/villamil.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gabriel Villamil</h5>
+              <p class="card-text">Club: Liga de Quito</p>
+              <p class="card-text">12 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/terceros.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Miguel Terceros</h5>
+              <p class="card-text">Club: Santos</p>
+              <p class="card-text">8 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/menacho.webp" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cesar Menacho</h5>
+              <p class="card-text">Club: Blooming</p>
+              <p class="card-text">1 partido con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/carmelo.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carmelo Algarañas</h5>
+              <p class="card-text">Club Bolivar</p>
+              <p class="card-text">10 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/bruno.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bruno Miranda</h5>
+              <p class="card-text">Club: The Stronguest</p>
+              <p class="card-text">16 partidos con la seleccion</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/seba.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sevastian Alvares</h5>
+              <p class="card-text">Club: Oriente Petrolero</p>
+              <p class="card-text">Invitado</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/moi.jpg" height="250px" width="50px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Moises Pañiagua</h5>
+              <p class="card-text">Club: Always Ready</p>
+              <p class="card-text">Invitado</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <img src="img/banner.jpg" width="100%" height="40px">
+    </div>
+    <br>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
+  <footer>
+    <div class="container-fluid p-0">
+      <div class="row bg-dark text-light">
+        <div class="col-md-12 text-center p-3">
+          <p style="color: white;">Copyright &copy; 2024 GOL.NET - Todos los derechos reservados</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>

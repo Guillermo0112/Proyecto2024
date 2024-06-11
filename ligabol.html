@@ -4,74 +4,157 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>PAGINA DE FUTBOL</title>
-  <link href="css/stylebol.css" rel="stylesheet" type="text/css"/>
+  <link href="css/ligabol.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-  <header>
-    <div class="banner">
-      <img src="img/banner.jpg" />
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+  <div class="row">
+    <img src="img/liga.jpg" width="100%" height="40px">
+  </div>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid me-lg-5 ms-lg-5 me-md-5 ms-md-5 ">
+      <img class="logo" src="img/logo.jpg" alt="">
+      <a class="navbar-brand" href="index.html" style="color: red;">GOL.NET</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">INICIO <span class="sr-only">(ACUTAL)</span></a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item me-3">
+            <a class="nav-link" href="ligabol.html" style="color: red;">Liga Boliviana</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="copali.html">COPA LIBERTADORES</a>
+          <li class="nav-item me-3 ">
+            <a class="nav-link" href="copali.html" style="color: red;">Copa Libertadores</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="copasuda.html">COPA SUDAMERICANA</a>
+          <li class="nav-item me-3 ">
+            <a class="nav-link" href="copasuda.html" style="color: red;">Copa Sudamericana</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item me-3 ">
+            <a class="nav-link" href="internacional.html" style="color: red;">Internacional</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item me-3 ">
+            <a class="nav-link" href="contacto.html" style="color: red;">Contacto</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="about.html" style="color: red;">Acerca de Nosotros</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-      </ul>
+        </ul>
       </div>
-    </nav>
-      <ul class="barra">
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="copali.html">COPA LIBERTADORES</a></li>
-        <li><a href="copasuda.html">COPA SUDAMERICANA</a></li>
-        <li><a href="internacional.html">INTERNACIONAL</a></li>
-        <li><a href="ligabol.html">LIGA BOLIVIANA</a></li>
-        <li><a href="about.html">ACERCA DE NOSOTROS</a></LI>
-        <li><a href="contacto.html">CONTACTO</a></li>
-      </ul>
-  </header>
-<body>
-  <div class="titulo">
-    <h1>LIGA BOLIVIANA COPA PACEÑA</h1>
-    <img src="ligabol.html" class="ligabol1">
+    </div>
+  </nav>
+  <div class="row">
+    <img src="img/liga.jpg" width="100%" height="40px">
+  </div>
+  <div class="principal">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/bolivia.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Liga Tecno 2024</h5>
+                  <p class="card-text">Inicia la Liga de Furbol Boliviano con un nuevo sponsor, Tecno, conoce los ultimos resultados, los proximos encuentros y la tabla de posiciones de la tabla acumulada</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <img src="img/liga.jpg" width="100%" height="40px">
+    </div>
     <br>
+    <br>
+    <div class="targetas">
+      <h1 id="cabezera">LOS ULTIMOS RESULTADOS</h1>
+      <p id="cabezera">Estos son los ultimos resultados de los partdidos de la liga TECNO 2024 con algunas sorpresas y polemicas</p>
+      <br>
+      <div class="row mb-3">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/bol-rsc.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Goleada de Bolivar sobre Real Santa Cruz</h5>
+              <p class="card-text">La academia paceña goleo por 4 a 0 a un equipo cruceño que acarica el descenso</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/blo-typ.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Victoria agonica de Blooming sobre Real Tomayapo</h5>
+              <p class="card-text">Derroto a Real Tomayapo por 1 a 0 en un partido muy parejo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/wil-olw.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Victoria del Aviador sobre el cuadro alteño</h5>
+              <p class="card-text">Wilsterman derroto por 1 a 0 a Always Ready en cochabanba</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/str-or.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Victoria de el Tigre a domicilio</h5>
+              <p class="card-text">Oriente petrolero fue derrotado en su casa ante The Stronghest y agraba su crisis</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/gvs-bulo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">GV Sanjose hunde mas a San Antonio de Bulo Bulo</h5>
+              <p class="card-text">Apesar de ser el ultimo campeon San Antonio de Bulo Bulo esta al fondo de la tabla</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/ryp-idp.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Empate en Santa Crus</h5>
+              <p class="card-text">Royal Pary empato 2 a 2 ante Independiente Petrolero en un agonico partido</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <img src="img/liga.jpg" width="100%" height="40px">
+    </div>
+    <br>
+    <div class="tabla">
+      <h1>Tabla Acumulada liga Boliviana</h1>
+      <br>
+      <div class="container">
+        <img src="img/acumulada.webp" class="img-fluid mx-auto d-block" height="500px" width="500px">
+      </div>
+    </div>
   </div>
-  <div class="Ip-bulo">
-    <h2>BULO BULO GOLEA POR 6 A 1 A INDEPENDIENTE PETROLERO Y ESTA CON UN PIE Y MEDIO EN LA FINAL</h2>
-    <p>El equipo revelacion San Antonio de Bulo Bulo, despues de eliminar a Bolivar en los cuartos de final en dos partidos muy polemicos por parte del arbitraje, se encamina a la final tras golear a Independiente Petrolero por un resultado de 6-1. </p>
-    <img src="bulobulo">
-    <p>El equipo Dirigo por Thiago Leitao dejo buenas imoresiones en cara al duelo de vuelta que se realizara en Sucre este 28 de Abril, ante Independiente Petrolero que tendra que ganar por un minimo de 6 goles para poder clasificar a la final o al menos hacer 5 goles para poder empatar la cerie y llegar a la definicion por penales.</p>
-    <p>Seria la segunda vez que un equipo recien ascendido pelea por un titulo en los ultimos años. Recordemos que el 2021 el mismo Independiente Petrolero recien ascendido gano la unica liga que se disputo ese año. San Antonio de Bulo Bulo busca repetir la azaña y quedarse con la Copa Paceña y una clasificacion como Bolivia 1 a copa Libertadores 2025</p>
-    <img src="inde" class="inde">
-  </div>
-  <div class="str-u">
-    <h2>EL TIGRE GANA POR LA MINIMA CON DOS HOMBRES MENOS A UNIVERSITARIO DE VINTO</h2>
-    <p>El tigre gano por la minima diferencia a Universitario de Vinto en el estadio Felix Capriles de Cochabanba por el duelo de ida. El tigre estuvo con dos hombres menos por la expulsion polemica de Joel Amoroso a los 30 minutos de juego y la expulsion de Adrian Jusino a los 85 minutos de juego.</p>
-    <img src="tigre" class="tigre">
-    <p>Apesar de la victoria el tigre no convence, hasta el momento de la primera expulsion no se habia generado un buen juego y habia fue un partido muy disputado en el medio campo. Universitario de Vinto no supo como hacer vaker el hombre de mas ya que el tigre se hiba arrinconando a medida que el tiempo pasaba. Hasta que el defensor de Universitario cometio un penal y este fue cabiado por gol por Luciano Ursino en el minuto 69.</p>
-    <p>El duelo de vuelta sera disputado en el Estadio Hernando Siles de La Paz el 28 de abril en cual el tigre no tiene la obligacion de ganar y no podra perder por mas de 2 goles.</p>
-    <img src="tigre2" class="tigre2">
-  <footer class="footer">©Gol.Net La Paz Bolivia</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
+  <footer>
+    <div id="foter" class="container-fluid p-0">
+      <div class="row bg-dark text-light">
+        <div class="col-md-12 text-center p-3">
+          <p style="color: white;">Copyright &copy; 2024 GOL.NET - Todos los derechos reservados</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>
