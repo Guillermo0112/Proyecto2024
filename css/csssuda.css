@@ -1,0 +1,83 @@
+body{
+  background-image: url(../img/sudabanner2.jpg);
+  background-size: cover;
+}
+.navbar {
+  position:absolute ;
+  z-index: 10;
+  width: 100%;
+}
+.navbar a {
+  font-weight: 700;
+  position: relative;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: solid;
+  background: #4682B4;
+}
+.navbar-brand {
+  color:#17630d1;
+  font-size: 25px;
+  transition: 0.3s;
+}
+.navbar-brand:hover {
+  color: #17630d1;
+}
+ .nav-link {
+  color: black;
+  font-size: 16px;
+  font-family: 'Comfortaa', cursive;
+}
+.nav-link:hover {
+  color: #17630d1;
+}
+ .navbar-toggler-icon {
+  background-color: #17630d1;
+} 
+.fa-user-circle {
+  color: #17630d1;
+  font-size: 35px;
+  position: relative;
+  transition: 0.2s;
+  padding: 0px;
+}
+.fa-user-circle:hover {
+  color: #17630d1;
+}
+.login:hover {
+  background: #17630d1;
+}
+.logo {
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 7px; 
+}
+
+.card{
+  padding: 16px;
+  text-align: center;
+}
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+.principal{
+  margin-top: 100%;
+  margin: 10% 10% 10% 10%;
+}
+#alw{
+  color: white;
+}
+.repe{
+  color: white;
+}#cabezera{
+  color: white;
+}

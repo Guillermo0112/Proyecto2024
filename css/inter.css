@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+.btn-check:focus+.btn, .btn:focus {
+  box-shadow: none;
+}
+.navbar {
+  position:absolute ;
+  z-index: 10;
+  width: 100%;
+}
+.navbar a {
+  font-weight: 700;
+  position: relative;
+  text-decoration: none;
+}
+.navbar-brand {
+  color: #345c04;
+  font-size: 25px;
+  transition: 0.3s;
+}
+.navbar-brand:hover {
+  color: #345c04;
+}
+.nav-link:hover¨{
+  color: #9dcb00;
+}
+.navbar-toggler-icon {
+  background-image: url(../img/bars-svgrepo-com.svg);
+}
+a:visited{
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: solid;
+  background: #f5f5f5f5;
+}
+.logo {
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 7px; 
+}
+.principal{
+  margin-top: 100%;
+  margin: 10% 10% 10% 10%;
+}
+.carousel-inner{
+  margin-top: 100px;
+}
+
+h5{
+  color: #345c04;
+}
+h2{
+  color: #345c04
+}
+p{
+  color: #345c04;
+}
+.cards{
+  margin-top: 100px;
+}
+#copa{
+  text-decoration: none;
+}
+.card-body:hover{
+  background: #f5f5f5f5;
+}
+.cards{
+  margin-top: 100px;
+}
+.cards img{
+  height: 100%;
+  width: 100%;
+}
+
+a.button2{
+display:inline-block;
+padding:0.5em 3em;
+border:0.16em solid #345c04;
+margin:0 0.3em 0.3em 0;
+box-sizing: border-box;
+text-decoration:none;
+text-transform:uppercase;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color: #345c04;
+text-align:center;
+transition: all 0.15s;
+}
+a.button2:hover{
+color:black;
+border-color: black;
+}
+a.button2:active{
+color: #345c04;
+border-color: #345c04;
+}
+@media all and (max-width:30em){
+a.button2{
+display:block;
+margin:0.4em auto;
+}
+}

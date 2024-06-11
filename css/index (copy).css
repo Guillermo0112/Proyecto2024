@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+.btn-check:focus+.btn, .btn:focus {
+  box-shadow: none;
+}
+.navbar {
+  position:absolute ;
+  z-index: 10;
+  width: 100%;
+}
+.navbar a {
+  font-weight: 700;
+  position: relative;
+  text-decoration: none;
+}
+.navbar-brand {
+  color: #345c04;
+  font-size: 25px;
+  transition: 0.3s;
+}
+.navbar-brand:hover {
+  color: #345c04;
+}
+.nav-link:hover¨{
+  color: #9dcb00;
+}
+.navbar-toggler-icon {
+  background-image: url(../img/bars-svgrepo-com.svg);
+}
+a:visited{
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: solid;
+  background: #f5f5f5f5;
+}
+.logo {
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 7px; 
+}
+.carousel-inner{
+  margin-top: 100px;
+}
+
+h5{
+  color: #345c04;
+}
+h2{
+  color: #345c04
+}
+p{
+  color: #345c04;
+}
+.cards{
+  margin-top: 100px;
+}
+#copa{
+  text-decoration: none;
+}
+.card-body:hover{
+  background: #f5f5f5f5;
+}
+.cards img{
+  height: 100%;
+  width: 100%;
+}
+.box{
+  border-radius: 30px;
+  border-color: #345c04;
+  width: 40%;
+  padding: 40;
+  position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  filter: alpha(opacity);
+  -moz-opacity:.70;opacity: .70;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 700px;
+}
+.box h1{
+  color: #345c04;;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: nome;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(35, 70, 66);
+  padding: 14px 10px;
+  width: 50%;
+  outline: nome;
+  color: #345c04;
+  border-radius: 24px;
+  transition: 0.25s;
+  background: none;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 250px;
+  border-color: #74ce60;
+}
+.box input[type = "submit"]{
+  border: 0;
+  background: nome;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #74ce60;
+  padding: 14px 40px;
+  width: 50%;
+  outline: nome;
+  color: #345c04;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  background: none;
+}
+.box input[type = "submit"]:hover{
+  background: #74ce60;
+}
+.registro{
+  margin: 20px 20px 20px 20px;
+}
+
